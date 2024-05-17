@@ -1,0 +1,175 @@
+.container{
+    
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(0,0,0,0.2);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.6);
+    
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    
+    justify-content: center;
+    background: rgb(75, 58, 83);
+    font-size: 20px;
+
+}
+
+.logo img{
+    height: 80px;
+   
+}
+
+footer{
+    background: rgb(75, 58, 83);
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+
+.socials a i{
+    font-size: 2.2rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: auto;
+}
+
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration-color: white;
+}
+
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+} 
+
+a { 
+    text-decoration:0;
+    color: black;
+    font-weight:400;
+    font-size: 14px;
+    letter-spacing:2px;
+    text-transform: uppercase;
+}
+ul {
+    list-style: none;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    box-shadow: 0 5px 10px black;
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: grey;
+}
+
+header .navbar ul {
+    list-style: none;
+    left: 0;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+    left: 0;
+}
+
+header .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    background: white;
+    color: black;
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: rgb(44, 43, 68);
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    text-align: center;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    display: initial;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
